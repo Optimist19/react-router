@@ -22,13 +22,13 @@ const formatDate = (date) =>
     const { getCity, currentCity, isLoading } = useCities();
 
 
-  useEffect(()=>{
-    getCity(id)
-  },[id])
+    useEffect(()=>{
+      getCity(id)
+    },[id])
 
   const { cityName, emoji, date, notes } = currentCity;
 
-// console.log(cityName, emoji, date, notes )
+
 
   if(isLoading) return <Spinner />
 

@@ -26,7 +26,7 @@ const formatDate = (date) =>
 function CityItem({city}) {
 	const {currentCity} = useCities()
 	const {cityName, emoji, date, id, position} = city
-	console.log(city,"ccccc")
+	// console.log(city,"ccccc")
   return (
 	<li>
       <Link
