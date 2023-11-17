@@ -1,124 +1,40 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
-      "cityName": "Gran",
-      "country": "Norway",
-      "emoji": "🇳🇴🇷🇼🇦🇾",
-      "date": "2023-11-17T13:13:05.274Z",
-      "notes": "",
-      "position": {
-        "lat": "60.46501120048904",
-        "lng": "10.474423001896064"
-      },
-      "id": 98443198
-    },
-    {
-      "cityName": "Balearic Islands",
+      "cityName": "Sasamon",
       "country": "Spain",
       "emoji": "🇸🇵🇦🇮🇳",
-      "date": "2023-11-17T13:14:19.782Z",
+      "date": "2023-11-17T18:52:45.472Z",
       "notes": "",
       "position": {
-        "lat": "39.15087118821532",
-        "lng": "1.680803882040949"
+        "lat": "42.39749955840484",
+        "lng": "-4.053618882768507"
       },
-      "id": 98443199
+      "id": 2
     },
     {
-      "cityName": "Santa Eularia des Riu",
+      "cityName": "Kortezubi",
       "country": "Spain",
       "emoji": "🇸🇵🇦🇮🇳",
-      "date": "2023-11-17T13:18:50.046Z",
+      "date": "2023-11-17T20:22:33.297Z",
       "notes": "",
       "position": {
-        "lat": "39.01496266622569",
-        "lng": "1.5710960771817508"
+        "lat": "43.34755185044418",
+        "lng": "-2.624178328124052"
       },
-      "id": 98443200
+      "id": 4
     },
     {
-      "cityName": "Lapoblacion",
+      "cityName": "Europe/Madrid",
       "country": "Spain",
       "emoji": "🇸🇵🇦🇮🇳",
-      "date": "2023-11-17T13:18:50.046Z",
+      "date": "2023-11-17T20:22:48.498Z",
       "notes": "",
       "position": {
-        "lat": "42.60309391604584",
-        "lng": "-2.4694887014929616"
+        "lat": "38.7780684853487",
+        "lng": "0.27296024903543"
       },
-      "id": 98443201
-    },
-    {
-      "cityName": "Figuig",
-      "country": "Morocco",
-      "emoji": "🇲🇴🇷🇴🇨🇨🇴",
-      "date": "2023-11-17T13:20:07.893Z",
-      "notes": "",
-      "position": {
-        "lat": "33.10442669194325",
-        "lng": "-2.7998559271968504"
-      },
-      "id": 98443202
-    },
-    {
-      "cityName": "Mombeltran",
-      "country": "Spain",
-      "emoji": "🇸🇵🇦🇮🇳",
-      "date": "2023-11-17T13:25:13.602Z",
-      "notes": "",
-      "position": {
-        "lat": "40.23592803910792",
-        "lng": "-5.040704086451706"
-      },
-      "id": 98443203
-    },
-    {
-      "cityName": "Mombeltran",
-      "country": "Spain",
-      "emoji": "🇸🇵🇦🇮🇳",
-      "date": "2023-11-17T13:25:13.602Z",
-      "notes": "",
-      "position": {
-        "lat": "40.23592803910792",
-        "lng": "-5.040704086451706"
-      },
-      "id": 98443204
+      "id": 5
     }
   ]
 }
