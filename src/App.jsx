@@ -13,40 +13,46 @@ import CountryList from "./Components/CountryList"
 import City from "./Components/City"
 import Form from "./Components/Form"
 import { CitiesProvider } from "./contexts/CitiesContext"
+import { AuthProvider } from "./contexts/FakeAuthContext"
+import ProtectedRoute from "./pages/ProtectedRoute"
+
 
 
 function App() {
 
- 
 
   return (
     <>
-      <CitiesProvider>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<HomePage />}/>
-            <Route path="product" element={<Product />}/>
-            <Route path="pricing" element={<Pricing />}/>
-            <Route path="login" element={<Login />}/>
-            <Route path="app" element={<AppLayout />}>
-              {/* <Route index element={<CityList cities={cities} isLoading={isLoading}/>} />  N.B This one is better than the immediate, though th immediate is no longer common*/}
+      <AuthProvider>
+        <CitiesProvider>
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<HomePage />}/>
+              <Route path="product" element={<Product />}/>
+              <Route path="pricing" element={<Pricing />}/>
+              <Route path="login" element={<Login />}/>
+              <Route path="app" element={<ProtectedRoute>
+                <AppLayout />
+              </ProtectedRoute>}>
+                {/* <Route index element={<CityList cities={cities} isLoading={isLoading}/>} />  N.B This one is better than the immediate, though th immediate is no longer common*/}
 
-              <Route index element={<Navigate replace to="cities" />} /> 
+                <Route index element={<Navigate replace to="cities" />} /> 
 
-              <Route path="cities" element={<CityList />} />
+                <Route path="cities" element={<CityList />} />
 
-              <Route path="cities/:id" element={<City />} />
+                <Route path="cities/:id" element={<City />} />
 
-              <Route path="countries" element={<CountryList />} />
+                <Route path="countries" element={<CountryList />} />
 
-              <Route path="form" element={<Form />} />
-            </Route>
+                <Route path="form" element={<Form />} />
+              </Route>
 
-            <Route path="*" element={<PageNotFound />}/>
+              <Route path="*" element={<PageNotFound />}/>
 
-          </Routes>
-        </BrowserRouter>
-      </CitiesProvider>
+            </Routes>
+          </BrowserRouter>
+        </CitiesProvider>
+      </AuthProvider>
     </>
   )
 }
